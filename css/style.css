@@ -181,8 +181,11 @@ h2{
     margin-top: -32px;/*выравнивание элемента: margin= -половинавысоты и ширина элемента*/
     cursor: pointer;
 }
-.collage{
+.result{
     padding-top: 219px;
+    display: block;
+}
+.collage{
     width: 50%;
     height: 540px;
     background: url(../img/img6.jpg) no-repeat left top / 80% 70%;
@@ -197,4 +200,84 @@ h2{
     right: 0;
     bottom: 0;
     box-shadow: 30px 80px 130px rgba(0,0,0,0.25);
+}
+.easy{
+    margin-left: 65px;
+    margin-top: 30px;
+}
+.easy__title{
+    margin-bottom: 30px;
+}
+.easy__text{
+    margin-bottom: 62px;
+}
+.easy__point{
+    padding: 20px 0 20px 83px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #222222;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.easy__point_first{
+    background: url(../img/icon100.svg) no-repeat left center;
+}
+.easy__point_second{
+    background: url(../img/bag.svg) no-repeat left center;
+}
+.works{
+    padding-top: 283px;
+}
+.work-tabs{
+    margin-left: 60px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    margin-top: 70px;
+}
+.work-tabs__item a{
+    text-decoration: none;
+    color: #8D8D8D;
+}
+.work-tabs__item.active a{
+    color: #1434E1;
+}
+.works-wrap{
+    flex-wrap: wrap;
+    margin-top: 108px;
+}
+.works-wrap__item{
+    margin-bottom: 30px;
+    position: relative;
+}
+.works-wrap__item img{
+    transition: all 1s ease;
+    display: block;
+}
+.works-wrap__item:hover img{
+    box-shadow: -30px 80px 200px rgba(0,0,0,0.25);
+    -moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+}
+.works-wrap__item:hover::after{
+    content: '';
+    display: block;
+    background: url(../img/play.svg);
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -32px;
+    margin-top: -32px;
+}
+.tabs__content {
+    display: none !important; 
+}
+.tabs__content.active {
+    display: flex !important; 
 }
