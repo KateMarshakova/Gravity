@@ -28,11 +28,11 @@ $(function () {
 
     $('.contributor-carousel').owlCarousel({
         loop:true,
-        margin:30,
+        margin:0,
         nav:true,
         dots:false,
         navText: ['<img src="img/left.svg">','<img src="img/right.svg">'],
-        startPosition: 1,
+        //startPosition: 1,
         responsive:{
             0:{
                 items:1

@@ -152,10 +152,10 @@ h3{
 .serv-list__left{
     margin-left: 37px;
 }
-.owl-carousel{
+.works-carousel{
     margin-top: 99px;
 }
-.owl-carousel .item, .owl-item{
+.works-carousel .item, .works-carousel .owl-item{
     width: 825px !important;
     position: relative;
 }
@@ -165,7 +165,7 @@ h3{
 .owl-theme .owl-nav [class*=owl-]{
     margin: 0;
 }
-.owl-nav{
+.works-carousel .owl-nav{
     margin-top: 50px !important;
 }
 .works-carousel .owl-prev{
@@ -303,11 +303,20 @@ transform: scale(1.1);
     margin-top: 121px;
 }
 .contributor__title{
-    margin-bottom: 10px;
+    margin-bottom: 13px;
+    margin-top: 121px;
 }
 .contributor__desc{
 
 }
 .cont-photo{
     display: block;
+}
+.contributor-carousel .owl-nav{
+    display: flex;
+    margin-top: -50px;
+    position: relative;
+}
+.contributor-carousel .owl-prev{
+    margin-right: 25px;
 }
