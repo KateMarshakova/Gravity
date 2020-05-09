@@ -32,13 +32,15 @@ h1, h2, h3, h4, h5, h6{
 h2{
     font-size: 38px;
 }
+h3{
+    font-size: 22px;
+}
 .btn{
     background: #3726F2;
     color: #fff;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 14px;
-    padding: 13px 26px;
     display: inline;
     border-radius: 0;
     letter-spacing: 0.3em;
@@ -74,7 +76,7 @@ h2{
     margin: 30px 0 56px;
 }
 .offer-cont__btn{
-
+    padding: 13px 26px;
 }
 .hero{
     background: url(../img/img1.jpg) no-repeat right top;
@@ -166,10 +168,10 @@ h2{
 .owl-nav{
     margin-top: 50px !important;
 }
-.owl-carousel .owl-prev{
+.works-carousel .owl-prev{
     margin-right: 25px !important;
 }
-.owl-carousel__play{
+.works-carousel__play{
     display: block;
     background: url(../img/play.svg);
     width: 65px;
@@ -280,4 +282,32 @@ transform: scale(1.1);
 }
 .tabs__content.active {
     display: flex !important; 
+}
+.work-dop{
+    padding-top: 52px;
+}
+.work-dop__text{
+
+}
+.work-dop__btn{
+    padding: 15px 31px;
+    margin-left: 33px;
+}
+.testimonials{
+    padding-top: 248px;
+}
+.testimonials .section-title__heading{
+    letter-spacing: -0.002em;
+}
+.contrituror{
+    margin-top: 121px;
+}
+.contributor__title{
+    margin-bottom: 10px;
+}
+.contributor__desc{
+
+}
+.cont-photo{
+    display: block;
 }
