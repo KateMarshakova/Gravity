@@ -531,11 +531,19 @@ transform: scale(1.1);
         margin-bottom: 60px;
         text-align: center;
     }
-    .work-tabs{
-        flex-direction: column;
+    .work-tabs__scroll-add{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        justify-content: left;
+        padding-bottom: 30px;
+        margin-bottom: -30px;
+        -webkit-overflow-scrolling: touch;
+    }
+    .work-tabs__scroll{
+        overflow: hidden;
     }
     .work-tabs__item{
-        margin-bottom: 40px;
+        padding-right: 42px;
     }
 }
 @media screen and (max-width: 400px){
