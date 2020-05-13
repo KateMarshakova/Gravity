@@ -545,6 +545,9 @@ transform: scale(1.1);
     .work-tabs__item{
         padding-right: 42px;
     }
+    .work-tabs__item-last{
+        padding-right: 0;
+    }
 }
 @media screen and (max-width: 400px){
     .search{
