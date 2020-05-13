@@ -443,6 +443,9 @@ transform: scale(1.1);
     }
 }
 @media screen and (max-width: 768px){
+    .header{
+        height: 60vh;
+    }
     .offer-cont__title {
         font-size: 48px;
     }
