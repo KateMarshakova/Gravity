@@ -415,6 +415,9 @@ transform: scale(1.1);
     }
 }
 @media screen and (max-width: 768px){
+    .header {
+        height: 63vh;
+    }
     .offer-cont__title {
         font-size: 48px;
     }
@@ -480,6 +483,12 @@ transform: scale(1.1);
     }
 }
 @media screen and (max-width: 570px){
+    .header {
+        height: 103vh;
+    }
+    .poster{
+        padding-top: 45px;
+    }
     .serv-list__left{
         margin-left: 0;
     }
@@ -490,7 +499,7 @@ transform: scale(1.1);
         flex-direction: column;
     }
     .clients-row__item{
-        margin-bottom: 30px;
+        margin-bottom: 60px;
         text-align: center;
     }
     .work-tabs{
@@ -498,5 +507,18 @@ transform: scale(1.1);
     }
     .work-tabs__item{
         margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 400px){
+    .header {
+        height: 97vh;
+    }
+    .poster{
+        padding-top: 210px;
+    }
+}
+@media screen and (max-width: 320px){
+    .header {
+        height: 120vh;
     }
 }
