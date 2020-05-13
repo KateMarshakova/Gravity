@@ -61,9 +61,37 @@ h3{
 .logo{
 
 }
-.search{
-    
+
+
+.search-btn{
+    position: absolute;
 }
+.search-btn:focus {
+    outline: none;
+}
+.search{
+    opacity: 0;
+    position: relative;
+    left: 37px;
+    height: 30px;
+    width: 0;
+    transition: all .3s ease;
+}
+.search.__opened{
+    opacity: 1;
+    width: 150px;
+}
+.search input{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+}
+.search input:focus{
+    outline: none;
+}
+
 .menu{
     
 }
@@ -415,11 +443,12 @@ transform: scale(1.1);
     }
 }
 @media screen and (max-width: 768px){
-    .header {
-        height: 63vh;
-    }
     .offer-cont__title {
         font-size: 48px;
+    }
+    .search.__opened{
+        width: 120px;
+        font-size: 15px;
     }
     .nav {
         margin-bottom: 40px;
@@ -510,6 +539,13 @@ transform: scale(1.1);
     }
 }
 @media screen and (max-width: 400px){
+    .search{
+        left: 30px;
+    }
+    .search.__opened{
+        width: 90px;
+        font-size: 13px;
+    }
     .header {
         height: 97vh;
     }
@@ -517,7 +553,7 @@ transform: scale(1.1);
         padding-top: 210px;
     }
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 330px){
     .header {
         height: 120vh;
     }

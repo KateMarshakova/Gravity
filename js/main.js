@@ -45,4 +45,10 @@ $(function () {
             }
         }
     });
+
+    $('.search-btn').on('click', function () {
+    	$('.search').toggleClass('__opened');
+    });
+    
 });
+
