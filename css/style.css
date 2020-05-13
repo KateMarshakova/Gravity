@@ -67,6 +67,20 @@ h3{
 .menu{
     
 }
+button:focus {
+    outline: 1px solid rgba(0,0,0,.15);
+}
+.dropdown-menu {
+    border-radius: 0;
+    text-align: right;
+    margin: 0.6rem -158px 0;
+}
+.dropdown-item{
+    color: #8D8D8D;
+}
+.dropdown-item:hover {
+    color: #222222;
+}
 .offer-cont__title{
     font-size: 60px;
     letter-spacing: -0.001em;
