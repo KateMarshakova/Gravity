@@ -58,11 +58,6 @@ h3{
     padding-top: 59px;  
     margin-bottom: 127px;
 }
-.logo{
-
-}
-
-
 .search-btn{
     position: absolute;
 }
@@ -90,10 +85,6 @@ h3{
 }
 .search input:focus{
     outline: none;
-}
-
-.menu{
-    
 }
 button:focus {
     outline: 1px solid rgba(0,0,0,.15);
@@ -155,9 +146,6 @@ button:focus {
 .problems .poster{
     width: 100%;
 }
-.about{
-
-}
 .about__title{
     margin-bottom: 30px;
 }
@@ -184,9 +172,6 @@ button:focus {
     letter-spacing: 0.25em;
     color: #C2C2C2;
     margin-bottom: 40px;
-}
-.section-title__heading{
-
 }
 .serv-list{
     margin-top: 67px;
@@ -333,9 +318,6 @@ transform: scale(1.1);
 .work-dop{
     padding-top: 52px;
 }
-.work-dop__text{
-
-}
 .work-dop__btn{
     padding: 15px 31px;
     margin-left: 33px;
@@ -352,9 +334,6 @@ transform: scale(1.1);
 .contributor__title{
     margin-bottom: 13px;
     margin-top: 121px;
-}
-.contributor__desc{
-
 }
 .cont-photo{
     display: block;
